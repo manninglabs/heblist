@@ -19,6 +19,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1>FIND A PERFECT MIDWIFE IN GERMANY</h1>
+          <router-link to="/show">Go to Bar</router-link>
         </div>
       </div>
       <div class="row">
@@ -233,7 +234,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'Home',
   data () {
     return {
     }
