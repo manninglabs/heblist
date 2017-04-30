@@ -1,0 +1,30 @@
+.navbar-brand {
+	padding-top: 15px;
+}
+nav button {
+	margin-bottom: 10px;
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+#need_help a {
+	margin-left: 0px;
+}
+#need_help .col-lg-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.container-fluid#need_help{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#sub-navigation, #need_help {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#footer {
+	height: 200px;
+}
