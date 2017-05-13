@@ -6,6 +6,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('list-item', require('./components/ListItem.vue'))
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

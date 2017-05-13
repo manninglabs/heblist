@@ -19,14 +19,16 @@
       <div class="row">
         <div class="col-lg-12">
           <h1>FIND A PERFECT MIDWIFE IN GERMANY</h1>
-          <router-link to="/show">Go to Bar</router-link>
         </div>
       </div>
       <div class="row">
         <div class="col15-lg-4 col15-md-4 col15-sm-4 hidden-xs"></div>
         <div class="col15-lg-3 col15-md-3 col15-sm-3 column">
           <div class="btn-group btn-block">
-            <button class="btn btn-default dropdown-toggle btn-block cta-button pull-right" data-toggle="dropdown"><span class="pull-left">Choose Area</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
+            <button class="btn btn-default dropdown-toggle btn-block cta-button pull-right" data-toggle="dropdown">
+              <span class="pull-left">Choose Area</span>
+              <i class="fa fa-sort-down fa-lg pull-right"></i>
+            </button>
             <ul class="dropdown-menu pull-right">
               <li>City 1</li>
               <li>City 2</li>
@@ -39,9 +41,11 @@
           <input type="text" name="Zipcode" placeholder="Zipcode" class="btn-group btn-block">
         </div>
         <div class="col15-lg-2 col15-md-2 col15-sm-2 column">
-          <button type="button" class="btn btn-default">
-            Search
-          </button>
+          <router-link to="/show">
+            <button type="button" class="btn btn-default">
+              Search
+            </button>
+          </router-link>
         </div>
         <div class="col15-lg-3 col15-md-3 col15-sm-3 hidden-xs"></div>
       </div>
@@ -234,11 +238,7 @@
 
 <script>
 export default {
-  name: 'Home',
-  data () {
-    return {
-    }
-  }
+  name: 'Home'
 }
 </script>
 
