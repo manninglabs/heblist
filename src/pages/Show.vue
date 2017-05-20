@@ -2,21 +2,7 @@
   <div>
     <link rel="stylesheet" type="text/css" href="/static/css/hebamme-info-style.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/hebamme-info-style-max-767px.css" media="screen and (max-width: 767px)" />
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle"
-          data-toggle="collapse" data-target="#responsive-menu">
-            <span class="sr-only">Open navigation</span>
-            <span><i class="fa fa-bars fa-2x"></i></span>
-          </button>
-          <a class="navbar-brand" href="#">HebammeList</a>
-        </div>
-        <div class="collapse navbar-collapse" id="responsive-menu">
-          <button class="btn btn-default cta-button pull-right">List your practice on HebammeList</button>
-        </div>
-      </div>
-    </nav>
+    <site-nav-bar />
     <div class="container-fluid" id="hebamme-info">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="hebamme-contacts">
@@ -59,41 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid hidden-xs" id="need_help">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <span>Need Help Booking or Registering?</span>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <a href="#">service@hebammelist.com</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid text-center hidden-xs" id="group-link">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul>
-            <li><a href="#">HebammeList</a></li><span>></span>
-            <li><a href="#">Find a midwife</a></li><span>></span>
-            <li><a href="#">Berlin</a></li><span>></span>
-            <li><a href="#">Berlin Midwives</a></li><span>></span>
-            <li><a class="active" href="#">Jane Brown</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid" id="footer">
-      <p class="hidden-xs">Are you an excellent midwife? <a href="#">Join HebammeList today!</a></p>
-      <ul class="list-unstyled">
-        <li class="hidden-xs"><a href="#">Home</a></li>
-        <li class="hidden-xs"><a href="#">About</a></li>
-        <li class="hidden-xs"><a href="#">Contact</a></li>
-        <li class="hidden-xs"><a href="#">Pricing</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-      </ul>
-      <p class="copyright">Copyright © 2017 HebammeList, Inc.</p>
-    </div>
+    <site-footer />
   </div>
 </template>
 

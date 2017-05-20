@@ -6,7 +6,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('site-nav-bar', require('./components/NavBar.vue'))
+Vue.component('site-footer', require('./components/Footer.vue'))
 Vue.component('list-item', require('./components/ListItem.vue'))
+Vue.component('list-filter', require('./components/ListFilter.vue'))
+Vue.component('list-pagination', require('./components/ListPagination.vue'))
 
 /* eslint-disable no-new */
 new Vue({

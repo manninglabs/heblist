@@ -1,20 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle"
-          data-toggle="collapse" data-target="#responsive-menu">
-            <span class="sr-only">Open navigation</span>
-            <span><i class="fa fa-bars fa-2x"></i></span>
-          </button>
-          <a class="navbar-brand" href="#">HebammeList</a>
-        </div>
-        <div class="collapse navbar-collapse" id="responsive-menu">
-          <button class="btn btn-default cta-button pull-right">List your practice on HebammeList</button>
-        </div>
-      </div>
-    </nav>
+    <site-nav-bar />
     <div class="container-fluid" id="homepage-banner">
       <div class="row">
         <div class="col-lg-12">
@@ -41,7 +27,7 @@
           <input type="text" name="Zipcode" placeholder="Zipcode" class="btn-group btn-block">
         </div>
         <div class="col15-lg-2 col15-md-2 col15-sm-2 column">
-          <router-link to="/show">
+          <router-link to="/list">
             <button type="button" class="btn btn-default">
               Search
             </button>
@@ -170,69 +156,7 @@
         <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
       </div>
     </div>
-    <div class="container-fluid hidden-xs" id="find_midwife">
-      <h2>Find a perfect midwife by:</h2>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>City</h3>
-          <hr>
-          <ul>
-            <li><a href="#">Berlin</a></li>
-            <li><a href="#">Hamburg</a></li>
-            <li><a href="#">Munich</a></li>
-            <li><a href="#">Frankfurt</a></li>
-            <li><a href="#">Köln</a></li>
-            <li><a href="#">View all</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>Services</h3>
-          <hr>
-          <ul>
-            <li><a href="#">Yoga</a></li>
-            <li><a href="#">Risk Management</a></li>
-            <li><a href="#">Home Visits</a></li>
-            <li><a href="#">Breastfeeding</a></li>
-            <li><a href="#">Baby Massage</a></li>
-            <li><a href="#">View all</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>Language</h3>
-          <hr>
-          <ul>
-            <li><a href="#">German</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Chinese</a></li>
-            <li><a href="#">Russian</a></li>
-            <li><a href="#">French</a></li>
-            <li><a href="#">View all</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid hidden-xs" id="need_help">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <span>Need Help Booking or Registering?</span>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <a href="#">service@hebammelist.com</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid" id="footer">
-      <p>Are you an excellent midwife? <a href="#">Join HebammeList today!</a></p>
-      <ul class="list-unstyled">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-      </ul>
-      <p class="copyright">Copyright © 2017 HebammeList, Inc.</p>
-    </div>
+    <site-footer />
   </div>
 </template>
 
