@@ -1,0 +1,14 @@
+[program:{{ app_name }}]
+command=node {{ app_path }}/node_modules/.bin/nuxt start
+directory={{ app_path }}
+autostart=true
+autorestart=true
+startsecs=5
+startretries=10
+user={{ app_user }}
+redirect_stderr=true
+stdout_logfile={{ home_path }}/stdout.log
+stderr_logfile={{ home_path }}/stderr.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=10
+environment=NODE_ENV={{ node_env }}

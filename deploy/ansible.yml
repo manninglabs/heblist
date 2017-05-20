@@ -1,0 +1,26 @@
+---
+
+- hosts: all
+  gather_facts: False
+  become: yes
+  become_user: root
+  pre_tasks:
+    - name: Install python for Ansible
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+      changed_when: False
+    - setup: # aka gather_facts
+
+- name: Create the {{ app_name }} application
+  hosts: appnodes
+  become: yes
+  become_user: root
+  remote_user: ubuntu
+  vars_files:
+    - vars/base.yml
+    - vars/app.yml
+  roles:
+    - geerlingguy.nginx
+    - geerlingguy.nodejs
+    - base
+    - app
+    - deploy

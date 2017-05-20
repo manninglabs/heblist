@@ -40,9 +40,11 @@
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2  col-xs-12 column">
-          <a href="list.html"><button type="button" class="btn btn-default">
-            Search
-          </button></a>
+          <router-link to="/list">
+            <button type="button" class="btn btn-default">
+              Search
+            </button>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
       </div>
@@ -91,9 +93,9 @@
       <div class="row">
         <div class="hidden-xs"></div>
         <div class="col-xs-12 column">
-          <a href="list.html"><button type="button" class="btn btn-default btn-block">
+          <router-link to="/list"><button type="button" class="btn btn-default btn-block">
             Search
-          </button></a>
+          </button></router-link>
         </div>
         <div class="hidden-xs"></div>
       </div>

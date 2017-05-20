@@ -1,0 +1,7 @@
+---
+
+- include: git_clone_repo.yml
+
+- include: configure_supervisor.yml
+
+- include: configure_nginx.yml

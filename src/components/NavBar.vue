@@ -7,7 +7,7 @@
           <span class="sr-only">Open navigation</span>
           <span><i class="fa fa-bars fa-2x"></i></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="/static/images/your-hebamme-white.png" alt="#"></a>
+        <router-link class="navbar-brand" to="/"><img src="/static/images/your-hebamme-white.png" alt="#"></router-link>
       </div>
       <div class="collapse navbar-collapse" id="responsive-menu">
         <a href="submit-profile-1.html"><button class="btn btn-default cta-button pull-right">Are You a Hebamme? Add Your Profile For Free!</button></a>
