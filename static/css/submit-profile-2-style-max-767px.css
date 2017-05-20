@@ -1,10 +1,18 @@
-
-
 nav button {
 	margin-bottom: 10px;
 }
 body h2 {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.5;
 	text-align: center;
+}
+a.navbar-brand {
+    padding-left: 15px;
+}
+.button-row {
+	margin-left: -15px;
+	margin-right: -15px;
 }
 .column {
 	margin-bottom: 15px;
@@ -12,10 +20,37 @@ body h2 {
 .button-row {
 	margin-bottom: 0px;
 }
+
 #footer {
-	height: 200px;
+	height: 110px;
+	margin-top: 0px;
+}
+#footer ul {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#footer p.copyright {
+	margin-top: 10px;
+	font-size: 15px;
 }
 #red-button {
 	margin-top: 15px;
 }
-
+#city {
+	margin-top: 0px;
+}
+#need_help {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 50px 0px 50px 15px;
+}
+#need_help a {
+	display: block;
+	margin-top: 30px;
+}
+#need_help div {
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}

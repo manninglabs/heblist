@@ -1,0 +1,76 @@
+a:hover {
+	text-decoration: none;
+}
+.btn:hover, #buttons-group button:hover {
+	background-color: #68c2a8;
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+}
+#homepage-banner button[type="button"]:hover {
+	background-color: #ED595C;
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+    opacity: none;
+}
+.navbar .cta-button:hover {
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+    background-color: #ffffff;
+    color: #74d6ba;
+}
+nav img:hover {
+	opacity: 0.7;
+}
+#homepage-banner .btn:hover {
+	background-color: #ffffff;	
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+}
+#button_hebamme_english button:hover {
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+}
+#exelent_midwife button:hover {
+	background-color: #ffffff;
+	color: #fc4f58;
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+    opacity: none;
+}
+div#hebamme-contacts a:hover, div#info a:hover, div#find_midwife a:hover, div#need_help a:hover, div#footer a:hover, div#group-link a:hover, div#list a:hover {
+	opacity: 0.7;
+}
+.btn-group .btn:first-child:hover {
+	background-color: #ffffff;
+	color: #979797;
+}
+div#list img:hover {
+    background-blend-mode: darken;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: #84dcc6;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border: none;
+}
+.pagination > li.active > a:hover {
+	background-color: #84dcc6;
+}
+#buttons-group input:hover, .button-row input:hover {
+	background-color: #ffffff;
+	color: black;
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+}
+#buttons-group input:active {
+	outline: none;
+    background-image: none;
+    box-shadow: none;
+}

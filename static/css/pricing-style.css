@@ -111,7 +111,7 @@ p {
 }
 h4 {
 	font-size: 18px;
-	font-weight: 900;
+	font-weight: 500;
 	color: #858585;
 	text-align: center;
 }
@@ -144,7 +144,7 @@ button.non-active:hover {
 /* end body */
 
 /* need help booking or registering? */
-#need-help {
+#need_help {
 	background-color: #ff686b;
 	margin-top: 100px;
     text-align: center;
@@ -154,12 +154,12 @@ button.non-active:hover {
 	border-radius: 5px;
 	margin-bottom: 15px;
 }
-#need-help span {
+#need_help span {
 	font-size: 24px;
 	color: #ffffff;
 	font-weight: 100;
 }
-#need-help a {
+#need_help a {
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;

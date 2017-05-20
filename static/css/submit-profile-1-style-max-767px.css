@@ -14,7 +14,12 @@ div#patients_appreciate p:nth-child(2) {
 }
 #need_help {
 	margin: 0px;
-	margin-top: 80px;
+	margin-top: 50px;
+	padding: 50px 0px 50px 0px;
+}
+#need_help a {
+	display: block;
+	margin-top: 30px;
 }
 #footer {
 	height: 110px;
