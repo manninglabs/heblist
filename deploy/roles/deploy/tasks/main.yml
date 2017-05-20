@@ -6,13 +6,19 @@
   become_user: "{{ app_user }}"
   tags: deploy
 
-- name: Install npm deps
-  npm:
-    path: "{{ app_path }}"
+# - name: Install npm deps
+#   npm:
+#     path: "{{ app_path }}"
+#   tags: deploy
+
+- name: NPM Install
+  shell: npm install
+  args:
+    chdir: "{{ app_path }}"
   tags: deploy
 
 - name: Build the app
-  shell: node {{ app_path }}/node_modules/.bin/nuxt build
+  shell: npm run build
   args:
     chdir: "{{ app_path }}"
   tags: deploy

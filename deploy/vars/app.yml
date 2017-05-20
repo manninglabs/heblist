@@ -1,6 +1,6 @@
 ---
 
-home_path: "/root"
+home_path: "/home/ubuntu"
 
 app_name: "heblist"
 app_user: "ubuntu"
