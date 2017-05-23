@@ -10,6 +10,18 @@ nav p {
 	text-align: left;
 	margin-top: 0px;
 }
+@media screen and (max-width: 400px) {
+.navbar .cta-button {
+    font-size: 12px;
+}}
+@media screen and (max-width: 400px) {
+div#list img {
+	max-width: 120px;
+	height: auto;
+}}
+.navbar-brand {
+	font-size: 22px;
+}
 .btn {
     font-size: 12px;
 }
@@ -17,12 +29,13 @@ nav p {
 	margin-top: 0px;
     display: block;
 	text-align: left;
+	font-size: 16px;
 }
 #list p {
 	text-align: left;
 }
 #list a {
-	font-size: 14px;
+	font-size: 13px;
 	color: #84dcc6;
 	margin-bottom: 20px;
 	display: block;
@@ -32,22 +45,32 @@ nav p {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-#footer {
-	height: 110px;
+ #footer {
+ 	height: 110px;
 }
-#footer ul {
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 700;
+ #footer ul {
+    margin-top: 20px;
+ }
+ #footer ul li {
+    font-weight: 400px;
+ }
+#footer .visible-xs {
+	display: inline !important;
 }
-#footer p.copyright {
-	margin-top: 10px;
-	font-size: 15px;
+#last-hebamme {
+	border: none;
+}
+.pagination {
+	margin-top: 0px;
+}
+div.text-center {
+	margin-top: 0px;
 }
 #need_help {
 	margin: 0px;
-	margin-top: 50px;
+	margin-top: 20px;
 	padding: 50px 0px 50px 0px;
+	border-radius: 0px;
 }
 #need_help a {
 	display: block;

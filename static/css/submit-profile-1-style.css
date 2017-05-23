@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Avenir', sans-serif;
 }
@@ -20,7 +21,7 @@ button.navbar-toggle {
 	font-size: 27px;
 	font-weight: 400;
 	text-align: center;
-	padding: 20px 30px;
+	padding: 15px 30px;
 }
 .navbar ul li {
 	margin: 2px 0px 0px 0px;
@@ -30,7 +31,13 @@ button.navbar-toggle {
 .navbar ul {
 	width: 300px;
 }
-
+nav a {
+	color: #ffffff;
+}
+.navbar-collapse {
+	border: 0px;
+	box-shadow: none;
+}
 /* end bootstrap overrides */
 
 /* navigation */
@@ -62,6 +69,11 @@ button.navbar-toggle {
 }
 /* end navigation */
 /* body */
+div#banner {
+	background-image: url(../assets/top-image-submit-desktop.png);
+ 	background-size: cover;
+ 	height: 300px;
+}
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
@@ -71,8 +83,11 @@ h3 {
 	font-weight: 900;
 	text-align: center;
 	color: #ff686b;
-	margin-top: 100px;
-	margin-bottom: 0px;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+#first_h {
+	margin-top: 50px;
 }
 p {
 	font-size: 15px;
@@ -87,6 +102,7 @@ h4 {
 	font-size: 18px;
 	text-align: center;
 	color: #858585;
+	font-weight: 600;
 }
 .btn:hover {
 	background-color: #84dcc6; 
@@ -100,7 +116,7 @@ h4 {
 	border-radius: 5px;
 	text-align: center;
 	font-size: 15px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 #patients_appreciate {
 	background-color: #ff686b;

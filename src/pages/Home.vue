@@ -1,5 +1,7 @@
 <template>
   <div>
+    <link rel="stylesheet" type="text/css" href="/static/css/index-style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/index-style-max-767px.css" media="screen and (max-width: 767px)">
     <site-nav-bar />
     <div class="container-fluid hidden-xs" id="homepage-banner">
       <div class="row">
@@ -40,11 +42,9 @@
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2  col-xs-12 column">
-          <router-link to="/list">
-            <button type="button" class="btn btn-default">
-              Search
-            </button>
-          </router-link>
+          <a href="list.html"><button type="button" class="btn btn-default">
+            Search
+          </button></a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
       </div>
@@ -93,9 +93,9 @@
       <div class="row">
         <div class="hidden-xs"></div>
         <div class="col-xs-12 column">
-          <router-link to="/list"><button type="button" class="btn btn-default btn-block">
+          <a href="list.html"><button type="button" class="btn btn-default btn-block">
             Search
-          </button></router-link>
+          </button></a>
         </div>
         <div class="hidden-xs"></div>
       </div>
@@ -162,6 +162,76 @@
         <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
       </div>
     </div>
+    <!-- слайдер<div class="redtitle">
+      <h2 class="hidden-xs">Recently joined HebammeList</h2>
+    </div>
+    <div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-1.png"></p><br>
+              <h3>Sara Hues</h3>
+              <p class="review">“Fantastic bedside manner. Quick visit although my appointment was first on a Saturday. Scheduled for surgery right away”.</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-2.png"></p><br>
+              <h3>Jane Brown</h3>
+              <p class="review">"I can’t believe anyone goes anywhere else. Kristin Mallon and Dr. Abdelhak are the perfect blend of midwifery skills and…”</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-3.png"></p><br>
+              <h3>Christine Dane</h3>
+              <p class="review">"She's just the sweetest. She explains everything clear and in depth. She's just literally the greatest. Can't find the words…”</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-2.png"></p><br>
+              <h3>Jane Brown</h3>
+              <p class="review">I can’t believe anyone goes anywhere else. Kristin Mallon and Dr. Abdelhak are the perfect blend of midwifery skills and…”</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-1.png"></p><br>
+              <h3>Sara Hues</h3>
+              <p class="review">“Fantastic bedside manner. Quick visit although my appointment was first on a Saturday. Scheduled for surgery right away”.</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <p><img src="assets/avatar-3.png"></p><br>
+              <h3>Christine Dane</h3>
+              <p class="review">She's just the sweetest. She explains everything clear and in depth. She's just literally the greatest. Can't find the words…”</p>
+              <p class="view-profile"><a href="hebamme-info.html">View profile</a></p>
+            </div>
+          </div>
+        </div>
+
+      <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span><i class="fa fa-chevron-left fa-lg"></i></span>
+      </a>
+      <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span><i class="fa fa-chevron-right fa-lg"></i></span>
+      </a>
+    </div>
+    </div>
+    <div class="container-fluid hidden-xs">
+      <div class="row info">
+        <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <a href="submit-profile-1.html"><button class="btn btn-default cta-button btn-block body-button">List your practice on HebammeList</button></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
+      </div>
+    </div>-->
+
     <site-footer />
   </div>
 </template>

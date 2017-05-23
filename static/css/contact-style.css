@@ -21,7 +21,7 @@ button.navbar-toggle {
 	font-size: 27px;
 	font-weight: 400;
 	text-align: center;
-	padding: 20px 30px;
+	padding: 15px 30px;
 }
 .navbar ul li {
 	margin: 2px 0px 0px 0px;
@@ -31,7 +31,10 @@ button.navbar-toggle {
 .navbar ul {
 	width: 300px;
 }
-
+.navbar-collapse {
+	border: 0px;
+	box-shadow: none;
+}
 /* end bootstrap overrides */
 
 /* navigation */
@@ -172,10 +175,10 @@ nav a:hover {
 }
 /* end buttons group */
 
-/* need help booking or registering? */
+/*Need Help Booking or Registering?*/
 #need_help {
 	background-color: #ff686b;
-	margin-top: 50px;
+	margin-top: 0px;
     text-align: center;
 	padding: 20px 20px;
 	margin-left: 30px;
@@ -192,12 +195,17 @@ nav a:hover {
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	margin-left: 5%;
+	display: block;
+    text-align: left;
 }
+@media screen and (max-width: 992px) {
+#need_help a {
+    text-align: center;
+}}
 
-/* end need help booking or registering? */
+/*end Need Help Booking or Registering?*/
 
-/* footer */
+/*footer*/
 #footer {
 	background-color: #84dcc6;
 	margin-top: 0px;
@@ -209,6 +217,7 @@ nav a:hover {
 }
 #footer p {
 	margin-top: 30px;
+	color: #ffffff;
 }
 #footer a {
 	color: #ffffff;
@@ -217,9 +226,81 @@ nav a:hover {
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;
+	color: #ffffff;
+	font-weight: 400;
+}
+#footer ul {
+	margin-top: 20px;
 }
 #footer .copyright {
 	font-size: 12px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 30px;
 }
-/* end footer */
+.list-unstyled {
+	margin-top: 10px;
+}/*Need Help Booking or Registering?*/
+#need_help {
+	background-color: #ff686b;
+	margin-top: 0px;
+    text-align: center;
+	padding: 20px 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+#need_help span {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 100;
+}
+#need_help a {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	display: block;
+    text-align: left;
+}
+@media screen and (max-width: 992px) {
+#need_help a {
+    text-align: center;
+}}
+
+/*end Need Help Booking or Registering?*/
+
+/*footer*/
+#footer {
+	background-color: #84dcc6;
+	margin-top: 0px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	height: 150px;
+}
+#footer p {
+	margin-top: 30px;
+	color: #ffffff;
+}
+#footer a {
+	color: #ffffff;
+}
+#footer ul li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+	font-weight: 400;
+}
+#footer ul {
+	margin-top: 20px;
+}
+#footer .copyright {
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.list-unstyled {
+	margin-top: 10px;
+}

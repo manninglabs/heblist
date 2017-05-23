@@ -3,76 +3,71 @@
     <div class="container-fluid hidden-xs" id="find_midwife">
       <h2>Find a perfect midwife by:</h2>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>City</h3>
-          <hr>
+      <h3>Choose an Area of Berlin</h3><hr/>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="#">Berlin</a></li>
-            <li><a href="#">Hamburg</a></li>
-            <li><a href="#">Munich</a></li>
-            <li><a href="#">Frankfurt</a></li>
-            <li><a href="#">Köln</a></li>
-            <li><a href="#">View all</a></li>
+            <li><a href="list.html">Charlottenburg</a></li>
+            <li><a href="list.html">Friedrichshain</a></li>
+            <li><a href="list.html">Hellersdorf</a></li>
+            <li><a href="list.html">Hohenschönhausen</a></li>
+            <li><a href="list.html">Köpenick</a></li>
+            <li><a href="list.html">Kreuzberg</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>Services</h3>
-          <hr>
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="#">Yoga</a></li>
-            <li><a href="#">Risk Management</a></li>
-            <li><a href="#">Home Visits</a></li>
-            <li><a href="#">Breastfeeding</a></li>
-            <li><a href="#">Baby Massage</a></li>
-            <li><a href="#">View all</a></li>
+            <li><a href="list.html">Lichtenberg</a></li>
+            <li><a href="list.html">Marzahn</a></li>
+            <li><a href="list.html">Mitte</a></li>
+            <li><a href="list.html">Neukölln</a></li>
+            <li><a href="list.html">Pankow</a></li>
+            <li><a href="list.html">Prenzlauer Berg</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-          <h3>Language</h3>
-          <hr>
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="#">German</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Chinese</a></li>
-            <li><a href="#">Russian</a></li>
-            <li><a href="#">French</a></li>
-            <li><a href="#">View all</a></li>
+            <li><a href="list.html">Reinickendorf</a></li>
+            <li><a href="list.html">Schöneberg</a></li>
+            <li><a href="list.html">Spandau</a></li>
+            <li><a href="list.html">Steglitz</a></li>
+            <li><a href="list.html">Tempelhof</a></li>
+            <li><a href="list.html">Tiergarten</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+          <ul>
+            <li><a href="list.html">Treptow</a></li>
+            <li><a href="list.html">Wedding</a></li>
+            <li><a href="list.html">Weißensee</a></li>
+            <li><a href="list.html">Wilmersdorf</a></li>
+            <li><a href="list.html">Zehlendorf</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="container-fluid hidden-xs" id="need_help">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <span>Need Help Booking or Registering?</span>
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+          <span>Have Comments or Questions? Contact Us!</span>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <a href="#">service@hebammelist.com</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid hidden-xs" id="group-link">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul>
-            <li><a href="#">HebammeList</a></li><span>></span>
-            <li><a href="#">Find a midwife</a></li><span>></span>
-            <li><a href="#">Berlin</a></li><span>></span>
-            <li><a href="#">Berlin Midwives</a></li><span>></span>
-            <li><a class="active" href="#">Jane Brown</a></li>
-          </ul>
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <a href="mailto:service@hebammelist.com">service@hebammelist.com</a>
         </div>
       </div>
     </div>
     <div class="container-fluid" id="footer">
-      <p class="hidden-xs">Are you an excellent midwife? <a href="#">Join HebammeList today!</a></p>
+      <p class="hidden-xs">Are you an excellent midwife? <a href="submit-profile-1.html">Join HebammeList today!</a></p>
       <ul class="list-unstyled">
-        <li class="hidden-xs"><a href="#">Home</a></li>
-        <li class="hidden-xs"><a href="#">About</a></li>
-        <li class="hidden-xs"><a href="#">Contact</a></li>
-        <li class="hidden-xs"><a href="#">Pricing</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="hidden"><a href="about.html">About</a></li>
+        <li class="hidden-xs"><a href="#homepage-banner">Find Hebamme</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="visible-xs"><a href="">Register</a></li>
+        <li class="hidden"><a href="pricing.html">Pricing</a></li>
+        <li class="hidden"><a href="terms-of-use.html">Terms of Use</a></li>
+        <li class="hidden"><a href="privacy-policy.html">Privacy Policy</a></li>
       </ul>
       <p class="copyright">Copyright © 2017 HebammeList, Inc.</p>
     </div>
