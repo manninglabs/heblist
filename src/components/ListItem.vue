@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      <router-link to="/show">
+      <router-link :to="{ name: 'show', params: { id: hebamme.id }}">
         <p class="img"><img v-bind:src="'/static/images/' + hebamme.avatarFilename"></p>
       </router-link>
     </div>
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
-      <router-link to="/show">
+      <router-link :to="{ name: 'show', params: { hebamme: hebamme }}">
         <h3>{{ hebamme.name }}</h3>
       </router-link>
       <p class="hidden-xs"><strong>Services: </strong>

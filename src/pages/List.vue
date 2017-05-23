@@ -6,7 +6,7 @@
     <list-filter />
     <div class="container-fluid" id="list">
       <div class="row element-list" v-for="p in profiles">
-        <list-item v-bind:hebamme="p"></list-item>
+        <list-item :hebamme="p"></list-item>
       </div>
     </div>
     <list-pagination />
@@ -21,6 +21,7 @@ export default {
     return {
       profiles: [
         {
+          id: 1,
           avatarFilename: 'avatar-1.png',
           address: 'Erich-Weinert Str. 43, 10439 Berlin',
           email: 'janebrown@gmail.com',
@@ -34,6 +35,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 2,
           avatarFilename: 'avatar-2.png',
           address: 'Eberswalde Str. 32, 10964 Berlin',
           email: 'sarahsmith@gmail.com',
@@ -47,6 +49,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 3,
           avatarFilename: 'avatar-3.png',
           address: 'Bochumer Str. 23, 10556 Berlin',
           email: 'barbaraholz@gmail.com',
@@ -60,6 +63,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 4,
           avatarFilename: 'avatar-4.png',
           address: 'Bandel Str. 12, 10558 Berlin',
           email: 'lisagrey@gmail.com',
@@ -73,6 +77,7 @@ export default {
           languages: 'English, German, French'
         },
         {
+          id: 5,
           avatarFilename: 'avatar-5.png',
           address: 'Sonntag Str. 17, 10245 Berlin',
           email: 'julianeschmidt@gmail.com',
@@ -86,6 +91,7 @@ export default {
           languages: 'English, German, Spanish'
         },
         {
+          id: 6,
           avatarFilename: 'avatar-6.png',
           address: 'Mansfelder Str. 35, 13346 Berlin',
           email: 'annasagert@gmail.com',
@@ -99,6 +105,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 7,
           avatarFilename: 'avatar-7.png',
           address: 'Kladower Damm 23, 14088 Berlin',
           email: 'katharinaflemming@gmail.com',
@@ -112,6 +119,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 8,
           avatarFilename: 'avatar-8.png',
           address: 'Mozartstr 12a, 14512 Berlin',
           email: 'juliaklein@gmail.com',
@@ -125,6 +133,7 @@ export default {
           languages: 'English, German, Polish'
         },
         {
+          id: 9,
           avatarFilename: 'avatar-9.png',
           address: 'Schallweg 98, 14087 Berlin',
           email: 'viktoriajahn@gmail.com',
@@ -138,6 +147,7 @@ export default {
           languages: 'English, German, Polish'
         },
         {
+          id: 10,
           avatarFilename: 'avatar-10.png',
           address: 'Grazer Platz 11, 12156 Berlin',
           email: 'sonjagrothe@gmail.com',
@@ -151,6 +161,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 11,
           avatarFilename: 'avatar-11.png',
           address: 'Kameruner 74, 13348 Berlin',
           email: 'christinwiemann@gmail.com',
@@ -164,6 +175,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 12,
           avatarFilename: 'avatar-12.png',
           address: 'Mansfelder Str. 35, 13346 Berlin',
           email: 'jennyschwarz@gmail.com',
@@ -177,6 +189,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 13,
           avatarFilename: 'avatar-13.png',
           address: 'Teltower Damm 213, 14168 Berlin',
           email: 'michaelaleon@gmail.com',
@@ -190,6 +203,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 14,
           avatarFilename: 'avatar-14.png',
           address: 'Mozartstr 12a, 14512 Berlin',
           email: 'juliaklein@gmail.com',
@@ -203,6 +217,7 @@ export default {
           languages: 'English, German, Spanish'
         },
         {
+          id: 15,
           avatarFilename: 'avatar-15.png',
           address: 'Berliner Str. 123, 13467 Berlin',
           email: 'petrarichter@gmail.com',
@@ -216,6 +231,7 @@ export default {
           languages: 'English, German, French'
         },
         {
+          id: 16,
           avatarFilename: 'avatar-16.png',
           address: 'Zeltinger Str. 4, 13467 Berlin',
           email: 'elkeludwig@gmail.com',
@@ -229,6 +245,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 17,
           avatarFilename: 'avatar-17.png',
           address: 'Hermsdorfer Damm 43a, 13467 Berlin',
           email: 'marlenemayer@gmail.com',
@@ -242,6 +259,7 @@ export default {
           languages: 'English, German'
         },
         {
+          id: 18,
           avatarFilename: 'avatar-18.png',
           address: 'Grimmstr 12a, 10968 Berlin',
           email: 'alexandrafox@gmail.com',
@@ -255,6 +273,7 @@ export default {
           languages: 'English, German, Russian'
         },
         {
+          id: 19,
           avatarFilename: 'avatar-19.png',
           address: 'Wildensteiner Str, 10, 10245 Berlin',
           email: 'marinanolte@gmail.com',
@@ -268,6 +287,7 @@ export default {
           languages: 'English, German, Polish'
         },
         {
+          id: 20,
           avatarFilename: 'avatar-20.png',
           address: 'Frankfurter Allee 94, 10245 Berlin',
           email: 'evakaminski@gmail.com',

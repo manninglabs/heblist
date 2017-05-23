@@ -15,14 +15,15 @@ export default new Router({
       component: Home
     },
     {
-      path: '/show',
-      name: 'show',
-      component: Show
-    },
-    {
       path: '/list',
       name: 'list',
       component: List
+    },
+    {
+      path: '/show/:id',
+      name: 'show',
+      component: Show,
+      props: true // https://goo.gl/gjd9D1
     }
   ]
 })

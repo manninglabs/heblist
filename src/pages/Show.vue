@@ -6,41 +6,38 @@
     <div class="container-fluid" id="hebamme-info">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="hebamme-contacts">
-          <p><img src="/static/images/avatar-1.png" alt="avatar"></p>
+          <p><img :src="'/static/images/' + hebamme.avatarFilename" alt="avatar"></p>
           <div class="hidden-xs">
             <a href="#">See all 7 photos</a>
-            <p>Prezlauer Alle 90<br>10439 Berlin</p>
-            <a href="#">janebrown@gmail.com</a>
-            <a href="#">www.janebrownhebamme.com</a>
-            <p>Tel: 030-96064920 </p>
-            <p>Tel: 0170-5138374</p>
+            <p>{{ hebamme.address }}</p>
+            <a href="#">{{ hebamme.email }}</a>
+            <a href="#">{{ hebamme.website }}</a>
+            <p>Tel: {{ hebamme.tel }} </p>
           </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="info">
-          <h3>Jane Brown</h3>
-          <p class="visible-xs" id="city">Prenzlauberg, Pankow, Mitte</p><hr/>
+          <h3>{{ hebamme.name }}</h3>
+          <p class="visible-xs" id="city">{{ hebamme.areas }}</p><hr/>
           <h4>Professional Statement</h4>
-          <p class="hidden-xs"><em>“In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful Tübingen and blown the Swabian air around my nose. But my Berlin roots were stronger and I returned.
-          After 2 years working in a hospital I followed a loud cry of my inner voice in the freelance and in 2004 she has been managing many families in her pregnancy and after birth in her home environment. I also offered the support during the birth as a midwife for a couple of years, and the women were also very happy to accompany them during these hours”.</em></p>
-           <p class="visible-xs"><em>“In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful Tübingen and blown the Swabian air around my nose..."</em></p>
+          <p class="hidden-xs"><em>“{{ hebamme.professionalStatement }}”.</em></p>
+           <p class="visible-xs"><em>“{{ hebamme.professionalStatement }}"</em></p>
            <a href="#" class="visible-xs">Read More</a><hr/>
           <h4>Education</h4>
           <p>Medical School - Albert Einstein College of Medicine<br>
           Long Island Jewish Medical Center (Residency)</p><hr/>
           <h4>Services</h4>
-          <p>advice and assistance, home visits, family midwife, preventive screening, shift service in clinic, risk management, baby swimming, homebirth, babymassage, yoga</p><hr/>
+          <p><p v-for="s in hebamme.services">{{ s }}</p></p><hr/>
           <h4>Courses</h4>
-          <p>Name of the course number one<br>
-          Name of the course number two</p><hr/>
+          <p>{{ hebamme.courses }}</p><hr/>
           <h4>Areas</h4>
-          <p>Berlin (Prenzlauerberg, Pankow, Mitte)</p><hr/>
+          <p>{{ hebamme.areas }}</p><hr/>
           <h4>Languages</h4>
-          <p>German, English, French</p><hr/>
+          <p>{{ hebamme.languages }}</p><hr/>
           <div class="visible-xs">
             <h4>Contact Info</h4>
-            <p>Prezlauer Alle 90<br>10439 Berlin</p>
-            <a href="#">janebrown@gmail.com</a>
-            <p class="phone">Tel: 030-96064920</p>
+            <p>{{ hebamme.address }}</p>
+            <a href="#">{{ hebamme.email }}</a>
+            <p class="phone">Tel: {{ hebamme.tel }}</p>
           </div>
         </div>
       </div>
@@ -52,6 +49,7 @@
 <script>
 export default {
   name: 'Show',
+  props: ['hebamme'],
   data () {
     return {
     }
