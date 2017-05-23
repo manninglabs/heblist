@@ -1,7 +1,9 @@
 <template>
   <div>
     <link rel="stylesheet" type="text/css" href="/static/css/index-style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-col-15.css">
     <link rel="stylesheet" type="text/css" href="/static/css/index-style-max-767px.css" media="screen and (max-width: 767px)">
+
     <site-nav-bar />
     <div class="container-fluid hidden-xs" id="homepage-banner">
       <div class="row">
@@ -42,9 +44,11 @@
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2  col-xs-12 column">
-          <a href="list.html"><button type="button" class="btn btn-default">
+          <router-link to="/list">
+            <button type="button" class="btn btn-default">
             Search
-          </button></a>
+            </button>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
       </div>
@@ -93,9 +97,11 @@
       <div class="row">
         <div class="hidden-xs"></div>
         <div class="col-xs-12 column">
-          <a href="list.html"><button type="button" class="btn btn-default btn-block">
-            Search
-          </button></a>
+          <router-link to="/list">
+            <button type="button" class="btn btn-default btn-block">
+              Search
+            </button>
+          </router-link>
         </div>
         <div class="hidden-xs"></div>
       </div>

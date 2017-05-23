@@ -2,26 +2,45 @@
   <div>
     <nav class="container-fluid">
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
+        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 hidden-xs">
           <div class="btn-group btn-block">
-            <button class="btn btn-default dropdown-toggle btn-block button-dropdown" data-toggle="dropdown"><span class="pull-left">Choose City</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
+            <button class="btn btn-default dropdown-toggle btn-block button-dropdown" data-toggle="dropdown"><span class="pull-left">Area of Berlin</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
             <ul class="dropdown-menu">
-              <li>City 1</li>
-              <li>City 2</li>
-              <li>City 3</li>
-              <li>City 4</li>
+              <li>Charlottenburg</li>
+              <li>Friedrichshain</li>
+              <li>Hellersdorf</li>
+              <li>Hohenschönhausen</li>
+              <li>Köpenick</li>
+              <li>Kreuzberg</li>
+              <li>Lichtenberg</li>
+              <li>Marzahn</li>
+              <li>Mitte</li>
+              <li>Neukölln</li>
+              <li>Pankow</li>
+              <li>Prenzlauer Berg</li>
+              <li>Reinickendorf</li>
+              <li>Schöneberg</li>
+              <li>Spandau</li>
+              <li>Steglitz</li>
+              <li>Tempelhof</li>
+              <li>Tiergarten</li>
+              <li>Treptow</li>
+              <li>Wedding</li>
+              <li>Weißensee</li>
+              <li>Wilmersdorf</li>
+              <li>Zehlendorf</li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
-           <input type="text" name="Zipcode" placeholder="Zipcode" class="btn-group btn-block">
+        <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs">
+           <input type="text" name="Zipcode" placeholder="Zipcode" class="hidden btn-group btn-block">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
           <p>Displaying 132 midwives in Berlin, 10967 </p>
         </div>
       </div>
     </nav>
-    <div class="container-fluid hidden-xs">
+    <div class="container-fluid hidden">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
           <div class="btn-group btn-block">
@@ -58,6 +77,20 @@
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid hidden-xs" id="group-link">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul>
+            <li><router-link to="/">HebammeList</router-link></li><span>></span>
+            <li><router-link to="/list">Find a midwife</router-link></li><span>></span>
+            <li><router-link to="/list">Berlin</router-link></li><span></span>
+            <!-- <li><a href="list.html">Berlin</a></li><span>></span> -->
+            <!-- <li><a href="list.html">Berlin Midwives</a></li><span>></span>
+            <li><a class="active" href="#">Jane Brown</a></li> -->
+          </ul>
         </div>
       </div>
     </div>
