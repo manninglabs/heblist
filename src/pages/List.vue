@@ -308,4 +308,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/*@import '/static/css/list-style.css';
+@import '/static/css/list-style-max-767px.css';*/
 </style>

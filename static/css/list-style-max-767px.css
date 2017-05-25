@@ -1,78 +1,80 @@
-.row {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-nav p {
-	text-align: left;
-	margin-top: 0px;
-}
-@media screen and (max-width: 400px) {
-.navbar .cta-button {
-    font-size: 12px;
-}}
-@media screen and (max-width: 400px) {
-div#list img {
-	max-width: 120px;
-	height: auto;
-}}
-.navbar-brand {
-	font-size: 22px;
-}
-.btn {
-    font-size: 12px;
-}
-#list h3 {
-	margin-top: 0px;
-    display: block;
-	text-align: left;
-	font-size: 16px;
-}
-#list p {
-	text-align: left;
-}
-#list a {
-	font-size: 13px;
-	color: #84dcc6;
-	margin-bottom: 20px;
-	display: block;
-	text-align: left;
-}
-.pagination li a {
-	margin-left: 0px;
-	margin-right: 0px;
-}
- #footer {
- 	height: 110px;
-}
- #footer ul {
-    margin-top: 20px;
- }
- #footer ul li {
-    font-weight: 400px;
- }
-#footer .visible-xs {
-	display: inline !important;
-}
-#last-hebamme {
-	border: none;
-}
-.pagination {
-	margin-top: 0px;
-}
-div.text-center {
-	margin-top: 0px;
-}
-#need_help {
-	margin: 0px;
-	margin-top: 20px;
-	padding: 50px 0px 50px 0px;
-	border-radius: 0px;
-}
-#need_help a {
-	display: block;
-	margin-top: 30px;
+@media screen and (max-width: 767px) {
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	nav p {
+		text-align: left;
+		margin-top: 0px;
+	}
+	@media screen and (max-width: 400px) {
+	.navbar .cta-button {
+	    font-size: 12px;
+	}}
+	@media screen and (max-width: 400px) {
+	div#list img {
+		max-width: 120px;
+		height: auto;
+	}}
+	.navbar-brand {
+		font-size: 22px;
+	}
+	.btn {
+	    font-size: 12px;
+	}
+	#list h3 {
+		margin-top: 0px;
+	    display: block;
+		text-align: left;
+		font-size: 16px;
+	}
+	#list p {
+		text-align: left;
+	}
+	#list a {
+		font-size: 13px;
+		color: #84dcc6;
+		margin-bottom: 20px;
+		display: block;
+		text-align: left;
+	}
+	.pagination li a {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	 #footer {
+	 	height: 110px;
+	}
+	 #footer ul {
+	    margin-top: 20px;
+	 }
+	 #footer ul li {
+	    font-weight: 400px;
+	 }
+	#footer .visible-xs {
+		display: inline !important;
+	}
+	#last-hebamme {
+		border: none;
+	}
+	.pagination {
+		margin-top: 0px;
+	}
+	div.text-center {
+		margin-top: 0px;
+	}
+	#need_help {
+		margin: 0px;
+		margin-top: 20px;
+		padding: 50px 0px 50px 0px;
+		border-radius: 0px;
+	}
+	#need_help a {
+		display: block;
+		margin-top: 30px;
+	}
 }
