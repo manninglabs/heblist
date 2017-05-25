@@ -1,7 +1,7 @@
 <template>
   <div>
-    <link rel="stylesheet" type="text/css" href="/static/css/list-style.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/list-style-max-767px.css" media="screen and (max-width: 767px)">
+<!--     <link rel="stylesheet" type="text/css" href="/static/css/list-style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/list-style-max-767px.css" media="screen and (max-width: 767px)"> -->
     <site-nav-bar />
     <list-filter />
     <div class="container-fluid" id="list">
@@ -308,6 +308,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/*@import '/static/css/list-style.css';
-@import '/static/css/list-style-max-767px.css';*/
+@import '/static/css/list-style.css';
+@import '/static/css/list-style-max-767px.css';
 </style>

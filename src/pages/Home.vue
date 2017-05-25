@@ -1,8 +1,8 @@
 <template>
   <div>
-    <link rel="stylesheet" type="text/css" href="/static/css/index-style.css">
+<!--     <link rel="stylesheet" type="text/css" href="/static/css/index-style.css">
     <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-col-15.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/index-style-max-767px.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" type="text/css" href="/static/css/index-style-max-767px.css" media="screen and (max-width: 767px)"> -->
     <site-nav-bar />
     <div class="container-fluid hidden-xs" id="homepage-banner">
       <div class="row">
@@ -249,7 +249,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/*@import '/static/css/index-style.css';
+@import '/static/css/index-style.css';
 @import '/static/css/bootstrap-col-15.css';
-@import '/static/css/index-style-max-767px.css';*/
+@import '/static/css/index-style-max-767px.css';
 </style>
