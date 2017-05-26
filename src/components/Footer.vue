@@ -53,7 +53,7 @@
           <span>Have Comments or Questions? Contact Us!</span>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-          <a href="mailto:service@hebammelist.com">service@hebammelist.com</a>
+          <a href="mailto:hello@hebammelist.com">hello@hebammelist.com</a>
         </div>
       </div>
     </div>

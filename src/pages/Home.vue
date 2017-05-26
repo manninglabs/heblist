@@ -128,17 +128,17 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-bolt fa-4x"></i></p>
           <h4>Find a Hebamme Fast</h4>
-          <p>In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful</p>
+          <p>Search by language, speciality and location to find a Hebamme that's the right fit.</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-envira fa-4x"></i></p>
           <h4>Find a Hebamme Easily</h4>
-          <p>In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful</p>
+          <p>Our simple website offers an easy way for especially non-tech savvy folks to find the perfect Hebamme.</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-heart fa-4x"></i></p>
           <h4>Make Sure She Is Perfect For You</h4>
-          <p>In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful</p>
+          <p>Browse detailed profiles for Hebammen to get a sense of what they are like. Chemistry is key.</p>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@
         <router-link class="navbar-brand" to="/"><img src="/static/images/your-hebamme-logo.svg" alt="#"></router-link>
       </div>
       <div class="collapse navbar-collapse" id="responsive-menu">
-        <a href="submit-profile-1.html"><button class="btn btn-default cta-button pull-right">Are You a Hebamme? Add Your Profile For Free!</button></a>
+        <a href="mailto:hello@yourhebamme.com"><button class="btn btn-default cta-button pull-right">Are You a Hebamme? Add Your Profile For Free!</button></a>
       </div>
     </div>
   </nav>
