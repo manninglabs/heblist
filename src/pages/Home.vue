@@ -88,29 +88,51 @@
           <div class="btn-group btn-block">
             <button class="btn btn-default dropdown-toggle btn-block cta-button" data-toggle="dropdown"><span class="pull-left">Choose Area of Berlin</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
             <ul class="dropdown-menu pull-right">
-              <li>Charlottenburg</li>
-              <li>Friedrichshain</li>
-              <li>Hellersdorf</li>
-              <li>Hohenschönhausen</li>
-              <li>Köpenick</li>
-              <li>Kreuzberg</li>
-              <li>Lichtenberg</li>
-              <li>Marzahn</li>
-              <li>Mitte</li>
-              <li>Neukölln</li>
-              <li>Pankow</li>
-              <li>Prenzlauer Berg</li>
-              <li>Reinickendorf</li>
-              <li>Schöneberg</li>
-              <li>Spandau</li>
-              <li>Steglitz</li>
-              <li>Tempelhof</li>
-              <li>Tiergarten</li>
-              <li>Treptow</li>
-              <li>Wedding</li>
-              <li>Weißensee</li>
-              <li>Wilmersdorf</li>
-              <li>Zehlendorf</li>
+              <router-link to="/list"><li>Charlottenburg</li></router-link>
+
+              <router-link to="/list"><li>Friedrichshain</li></router-link>
+
+              <router-link to="/list"><li>Hellersdorf</li></router-link>
+
+              <router-link to="/list"><li>Hohenschönhausen</li></router-link>
+
+              <router-link to="/list"><li>Köpenick</li></router-link>
+
+              <router-link to="/list"><li>Kreuzberg</li></router-link>
+
+              <router-link to="/list"><li>Lichtenberg</li></router-link>
+
+              <router-link to="/list"><li>Marzahn</li></router-link>
+
+              <router-link to="/list"><li>Mitte</li></router-link>
+
+              <router-link to="/list"><li>Neukölln</li></router-link>
+
+              <router-link to="/list"><li>Pankow</li></router-link>
+
+              <router-link to="/list"><li>Prenzlauer Berg</li></router-link>
+
+              <router-link to="/list"><li>Reinickendorf</li></router-link>
+
+              <router-link to="/list"><li>Schöneberg</li></router-link>
+
+              <router-link to="/list"><li>Spandau</li></router-link>
+
+              <router-link to="/list"><li>Steglitz</li></router-link>
+
+              <router-link to="/list"><li>Tempelhof</li></router-link>
+
+              <router-link to="/list"><li>Tiergarten</li></router-link>
+
+              <router-link to="/list"><li>Treptow</li></router-link>
+
+              <router-link to="/list"><li>Wedding</li></router-link>
+
+              <router-link to="/list"><li>Weißensee</li></router-link>
+
+              <router-link to="/list"><li>Wilmersdorf</li></router-link>
+
+              <router-link to="/list"><li>Zehlendorf</li></router-link>
             </ul>
           </div>
         </div>
