@@ -6,29 +6,29 @@
           <div class="btn-group btn-block">
             <button class="btn btn-default dropdown-toggle btn-block button-dropdown" data-toggle="dropdown"><span class="pull-left">Area of Berlin</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
             <ul class="dropdown-menu">
-              <li>Charlottenburg</li>
-              <li>Friedrichshain</li>
-              <li>Hellersdorf</li>
-              <li>Hohenschönhausen</li>
-              <li>Köpenick</li>
-              <li>Kreuzberg</li>
-              <li>Lichtenberg</li>
-              <li>Marzahn</li>
-              <li>Mitte</li>
-              <li>Neukölln</li>
-              <li>Pankow</li>
-              <li>Prenzlauer Berg</li>
-              <li>Reinickendorf</li>
-              <li>Schöneberg</li>
-              <li>Spandau</li>
-              <li>Steglitz</li>
-              <li>Tempelhof</li>
-              <li>Tiergarten</li>
-              <li>Treptow</li>
-              <li>Wedding</li>
-              <li>Weißensee</li>
-              <li>Wilmersdorf</li>
-              <li>Zehlendorf</li>
+              <li><a href="#">Charlottenburg</a></li>
+              <li><a href="#">Friedrichshain</a></li>
+              <li><a href="#">Hellersdorf</a></li>
+              <li><a href="#">Hohenschönhausen</a></li>
+              <li><a href="#">Köpenick</a></li>
+              <li><a href="#">Kreuzberg</a></li>
+              <li><a href="#">Lichtenberg</a></li>
+              <li><a href="#">Marzahn</a></li>
+              <li><a href="#">Mitte</a></li>
+              <li><a href="#">Neukölln</a></li>
+              <li><a href="#">Pankow</a></li>
+              <li><a href="#">Prenzlauer Berg</a></li>
+              <li><a href="#">Reinickendorf</a></li>
+              <li><a href="#">Schöneberg</a></li>
+              <li><a href="#">Spandau</a></li>
+              <li><a href="#">Steglitz</a></li>
+              <li><a href="#">Tempelhof</a></li>
+              <li><a href="#">Tiergarten</a></li>
+              <li><a href="#">Treptow</a></li>
+              <li><a href="#">Wedding</a></li>
+              <li><a href="#">Weißensee</a></li>
+              <li><a href="#">Wilmersdorf</a></li>
+              <li><a href="#">Zehlendorf</a></li>
             </ul>
           </div>
         </div>

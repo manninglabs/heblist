@@ -120,6 +120,7 @@ input[type="text"], .button-dropdown {
 }
 .button-dropdown:hover {
 	background-color: #ffffff;
+	margin-bottom: 0px;
 }
 input[type="text"] {
     border-width: 1px;
@@ -162,6 +163,11 @@ nav p {
 }
 /*end Navigation and dropdown button*/
 /* style-list */
+@media screen and (max-width: 950px) {
+	div#list img {
+		max-width: 150px;
+		height: auto;
+	}}
 #list p.img {
 	margin-top: 0px;
 	text-align: center;
@@ -181,6 +187,8 @@ nav p {
 #list p {
 	margin: 15px 0px;
 	font-size: 15px;
+	display: block;
+	text-align: left;
 }
 #list a {
 	font-size: 15px;
@@ -196,6 +204,10 @@ div#list ul {
 	padding-left: 0px;
 	font-size: 15px;
 }
+div.col-lg-9.col-md-9.col-sm-9.col-xs-7 {
+	padding-left: 0px;
+}
+
 /* end style-list*/
 
 /*pagination*/

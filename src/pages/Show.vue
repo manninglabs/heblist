@@ -8,7 +8,6 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="hebamme-contacts">
           <p><img :src="'/static/images/' + hebamme.avatarFilename" alt="avatar"></p>
           <div class="hidden-xs">
-            <a href="#">See all 7 photos</a>
             <p>{{ hebamme.address }}</p>
             <a href="#">{{ hebamme.email }}</a>
             <a href="#">{{ hebamme.website }}</a>
@@ -17,6 +16,7 @@
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="info">
           <h3>{{ hebamme.name }}</h3>
+          <a href="mailto:hello@hebammelist.com" class="hidden-xs">Are You {{ hebamme.name }}? Contact Us.</a>
           <p class="visible-xs" id="city">{{ hebamme.areas }}</p><hr/>
           <h4>Professional Statement</h4>
           <p class="hidden-xs"><em>“{{ hebamme.professionalStatement }}”.</em></p>
@@ -61,4 +61,17 @@ export default {
 <style scoped>
 @import '/static/css/hebamme-info-style.css';
 @import '/static/css/hebamme-info-style-max-767px.css';
+
+#info h3, #info p, #info h4 {
+  text-align: left;
+}
+#info hr {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 767px) {
+  #info h3, p#city {
+    text-align: center;
+  }
+}
 </style>

@@ -60,9 +60,9 @@
     <div class="container-fluid" id="footer">
       <p>Are you an excellent midwife? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
       <ul class="list-unstyled">
-        <li><a href="#responsive-menu">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="hidden"><a href="about.html">About</a></li>
-        <li><a href="#responsive-menu">Find Hebamme</a></li>
+        <li><a href="index.html">Find Hebamme</a></li>
         <li class="hidden"><a href="contact.html">Contact</a></li>
         <li class="hidden"><a href="">Register</a></li>
         <li class="hidden"><a href="pricing.html">Pricing</a></li>
