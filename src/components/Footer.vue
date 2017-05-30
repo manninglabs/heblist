@@ -8,41 +8,41 @@
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="list.html">Charlottenburg</a></li>
-            <li><a href="list.html">Friedrichshain</a></li>
-            <li><a href="list.html">Hellersdorf</a></li>
-            <li><a href="list.html">Hohenschönhausen</a></li>
-            <li><a href="list.html">Köpenick</a></li>
-            <li><a href="list.html">Kreuzberg</a></li>
+            <li><router-link to="/list">Charlottenburg</router-link></li>
+            <li><router-link to="/list">Friedrichshain</router-link></li>
+            <li><router-link to="/list">Hellersdorf</router-link></li>
+            <li><router-link to="/list">Hohenschönhausen</router-link></li>
+            <li><router-link to="/list">Köpenick</router-link></li>
+            <li><router-link to="/list">Kreuzberg</router-link></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="list.html">Lichtenberg</a></li>
-            <li><a href="list.html">Marzahn</a></li>
-            <li><a href="list.html">Mitte</a></li>
-            <li><a href="list.html">Neukölln</a></li>
-            <li><a href="list.html">Pankow</a></li>
-            <li><a href="list.html">Prenzlauer Berg</a></li>
+            <li><router-link to="/list">Lichtenberg</router-link></li>
+            <li><router-link to="/list">Marzahn</router-link></li>
+            <li><router-link to="/list">Mitte</router-link></li>
+            <li><router-link to="/list">Neukölln</router-link></li>
+            <li><router-link to="/list">Pankow</router-link></li>
+            <li><router-link to="/list">Prenzlauer Berg</router-link></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="list.html">Reinickendorf</a></li>
-            <li><a href="list.html">Schöneberg</a></li>
-            <li><a href="list.html">Spandau</a></li>
-            <li><a href="list.html">Steglitz</a></li>
-            <li><a href="list.html">Tempelhof</a></li>
-            <li><a href="list.html">Tiergarten</a></li>
+            <li><router-link to="/list">Reinickendorf</router-link></li>
+            <li><router-link to="/list">Schöneberg</router-link></li>
+            <li><router-link to="/list">Spandau</router-link></li>
+            <li><router-link to="/list">Steglitz</router-link></li>
+            <li><router-link to="/list">Tempelhof</router-link></li>
+            <li><router-link to="/list">Tiergarten</router-link></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
           <ul>
-            <li><a href="list.html">Treptow</a></li>
-            <li><a href="list.html">Wedding</a></li>
-            <li><a href="list.html">Weißensee</a></li>
-            <li><a href="list.html">Wilmersdorf</a></li>
-            <li><a href="list.html">Zehlendorf</a></li>
+            <li><router-link to="/list">Treptow</router-link></li>
+            <li><router-link to="/list">Wedding</router-link></li>
+            <li><router-link to="/list">Weißensee</router-link></li>
+            <li><router-link to="/list">Wilmersdorf</router-link></li>
+            <li><router-link to="/list">Zehlendorf</router-link></li>
           </ul>
         </div>
       </div>
@@ -58,13 +58,13 @@
       </div>
     </div>
     <div class="container-fluid" id="footer">
-      <p class="hidden-xs">Are you an excellent midwife? <a href="submit-profile-1.html">Join HebammeList today!</a></p>
+      <p>Are you an excellent midwife? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
       <ul class="list-unstyled">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="#responsive-menu">Home</a></li>
         <li class="hidden"><a href="about.html">About</a></li>
-        <li class="hidden-xs"><a href="#homepage-banner">Find Hebamme</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="visible-xs"><a href="">Register</a></li>
+        <li><a href="#responsive-menu">Find Hebamme</a></li>
+        <li class="hidden"><a href="contact.html">Contact</a></li>
+        <li class="hidden"><a href="">Register</a></li>
         <li class="hidden"><a href="pricing.html">Pricing</a></li>
         <li class="hidden"><a href="terms-of-use.html">Terms of Use</a></li>
         <li class="hidden"><a href="privacy-policy.html">Privacy Policy</a></li>

@@ -16,29 +16,52 @@
           <div class="btn-group btn-block">
             <button class="btn btn-default dropdown-toggle btn-block cta-button" data-toggle="dropdown"><span class="pull-left">Choose Area of Berlin</span><i class="fa fa-sort-down fa-lg pull-right"></i></button>
             <ul class="dropdown-menu pull-right">
-              <li>Charlottenburg</li>
-              <li>Friedrichshain</li>
-              <li>Hellersdorf</li>
-              <li>Hohenschönhausen</li>
-              <li>Köpenick</li>
-              <li>Kreuzberg</li>
-              <li>Lichtenberg</li>
-              <li>Marzahn</li>
-              <li>Mitte</li>
-              <li>Neukölln</li>
-              <li>Pankow</li>
-              <li>Prenzlauer Berg</li>
-              <li>Reinickendorf</li>
-              <li>Schöneberg</li>
-              <li>Spandau</li>
-              <li>Steglitz</li>
-              <li>Tempelhof</li>
-              <li>Tiergarten</li>
-              <li>Treptow</li>
-              <li>Wedding</li>
-              <li>Weißensee</li>
-              <li>Wilmersdorf</li>
-              <li>Zehlendorf</li>
+              <router-link to="/list"><li>Charlottenburg</li></router-link>
+
+              <router-link to="/list"><li>Friedrichshain</li></router-link>
+
+              <router-link to="/list"><li>Hellersdorf</li></router-link>
+
+              <router-link to="/list"><li>Hohenschönhausen</li></router-link>
+
+              <router-link to="/list"><li>Köpenick</li></router-link>
+
+              <router-link to="/list"><li>Kreuzberg</li></router-link>
+
+              <router-link to="/list"><li>Lichtenberg</li></router-link>
+
+              <router-link to="/list"><li>Marzahn</li></router-link>
+
+              <router-link to="/list"><li>Mitte</li></router-link>
+
+              <router-link to="/list"><li>Neukölln</li></router-link>
+
+              <router-link to="/list"><li>Pankow</li></router-link>
+
+              <router-link to="/list"><li>Prenzlauer Berg</li></router-link>
+
+              <router-link to="/list"><li>Reinickendorf</li></router-link>
+
+              <router-link to="/list"><li>Schöneberg</li></router-link>
+
+              <router-link to="/list"><li>Spandau</li></router-link>
+
+              <router-link to="/list"><li>Steglitz</li></router-link>
+
+              <router-link to="/list"><li>Tempelhof</li></router-link>
+
+              <router-link to="/list"><li>Tiergarten</li></router-link>
+
+              <router-link to="/list"><li>Treptow</li></router-link>
+
+              <router-link to="/list"><li>Wedding</li></router-link>
+
+              <router-link to="/list"><li>Weißensee</li></router-link>
+
+              <router-link to="/list"><li>Wilmersdorf</li></router-link>
+
+              <router-link to="/list"><li>Zehlendorf</li></router-link>
+
             </ul>
           </div>
         </div>
@@ -109,9 +132,9 @@
       <div class="row">
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-          <h3>We Created “Hebammen In English” Because…</h3>
-          <p class="hidden-xs">In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful Tübingen and blown the Swabian air around my nose. But my Berlin roots were stronger and I returned. In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful Tübingen and blown the Swabian air around my nose. But my Berlin roots were stronger and I returned.</p>
-          <p class="visible-xs">In 2002, I completed my training as a midwife. I spent the three years of intensive apprenticeship in Baden-Wurttemberg in the beautiful Tübingen and blown the Swabian air around my nose. But my Berlin roots were stronger and I returned. In 2002, I completed my training as a midwife. I spent the three years of intensiv</p>
+          <h3>We Created “Your Hebamme” Because:</h3>
+          <p class="hidden-xs">There are thousands of English-speaking expecting families in Berlin. When it comes to prenatal care, there are so many things that families new to Germany have to figure out. Finding a Hebamme is arguably the hardest! Until now, families would have to go through lists and lists of names and phone numbers. Your Hebamme goes one step further. We offer a fast and easy way to find a Hebamme. What is more, we make it easy for young families to assess the personality of the candidate - having an emotional connection with your Hebamme is extremely important! </p>
+          <p class="visible-xs">There are thousands of English-speaking expecting families in Berlin. When it comes to prenatal care, there are so many things that families new to Germany have to figure out. Finding a Hebamme is arguably the hardest! Until now, families would have to go through lists and lists of names and phone numbers. Your Hebamme goes one step further. We offer a fast and easy way to find a Hebamme. What is more, we make it easy for young families to assess the personality of the candidate - having an emotional connection with your Hebamme is extremely important! </p>
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
       </div>
@@ -120,7 +143,7 @@
       <div class="row">
         <div class="hidden-lg hidden-md hidden-sm col-xs-1"></div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-10">
-          <h3>How Our Site Helps Patients:</h3>
+          <h3>How “Your Hebamme” Helps Expecting Families:</h3>
         </div>
         <div class="hidden-lg hidden-md hidden-sm col-xs-1"></div>
       </div>
@@ -128,17 +151,17 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-bolt fa-4x"></i></p>
           <h4>Find a Hebamme Fast</h4>
-          <p>Search by language, speciality and location to find a Hebamme that's the right fit.</p>
+          <p>Use our simple one-step search engine and find all the Hebammen near you in seconds.</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-envira fa-4x"></i></p>
           <h4>Find a Hebamme Easily</h4>
-          <p>Our simple website offers an easy way for especially non-tech savvy folks to find the perfect Hebamme.</p>
+          <p>We made it extremely easy to scan a list of Hebammen. Choose the right one and contact her right away.</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p class="icon"><i class="fa fa-heart fa-4x"></i></p>
           <h4>Make Sure She Is Perfect For You</h4>
-          <p>Browse detailed profiles for Hebammen to get a sense of what they are like. Chemistry is key.</p>
+          <p>A profile picture, personal bio, and other details help you make sure you connect with your Hebamme on an emotional level.</p>
         </div>
       </div>
     </div>
@@ -155,14 +178,13 @@
       <div class="row">
         <h3>Are you an excellent midwife?</h3>
         <ul>
-          <li>— List your practice now and reach millions of patients list your practice now and reach millions of patients</li>
-          <li>— Build and strengthen your online presence build and strengthen your online presence</li>
-          <li>— Deliver a premium experience patients love deliver a premium experience patients love</li>
-          <li>— Get 5-star reviews and build your reputation get 5-star reviews and build your reputation </li>
+          <li>— Create your professional profile and reach thousands of patients all over Berlin</li>
+          <li>— Build and strengthen your online presence - there is no need in creating an individual website</li>
+          <li>— Deliver a premium experience your patients love and build your professional reputation</li>
         </ul>
         <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <a href="submit-profile-1.html"><button class="btn btn-default cta-button btn-block body-button">Create Your Profile for Free</button></a>
+          <a href="mailto:hello@yourhebamme.com"><button class="btn btn-default cta-button btn-block body-button">Email us to create your free profile</button></a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
       </div>
@@ -252,4 +274,45 @@ export default {
 @import '/static/css/index-style.css';
 @import '/static/css/bootstrap-col-15.css';
 @import '/static/css/index-style-max-767px.css';
+
+#homepage-banner button[type="button"] {
+  margin-top: 5px;
+} 
+#homepage-banner ul li {
+  color: #858585;
+}
+#button_hebamme_english button {
+  background-color: #84dcc6;
+}
+.cta-button {
+  background-color: #ffffff;
+}
+h3 {
+  color: #ff686b;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  button.dropdown-toggle {
+    font-size: 15px;
+  }
+  #homepage-banner .column {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  div#button_hebamme_english {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  div#button_hebamme_english button {
+    font-size: 15px;
+  }
+  #exelent_midwife button {
+    font-size: 15px;
+  }
+  #homepage-banner button[type="button"] {
+  margin-top: 0px;
+  } 
+  
+}
 </style>

@@ -34,6 +34,8 @@ nav img:hover {
 	outline: none;
     background-image: none;
     box-shadow: none;
+    color: #ffffff;
+    background-color: #68c2a8 !important;
 }
 #exelent_midwife button:hover {
 	background-color: #ffffff;
