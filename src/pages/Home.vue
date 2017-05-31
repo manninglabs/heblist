@@ -287,7 +287,10 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted () {
+    document.body.scrollTop = (document.documentElement.scrollTop = 0)
+  }
 }
 </script>
 
@@ -299,7 +302,7 @@ export default {
 
 #homepage-banner button[type="button"] {
   margin-top: 5px;
-} 
+}
 #homepage-banner ul li {
   color: #858585;
 }
@@ -334,7 +337,7 @@ h3 {
   }
   #homepage-banner button[type="button"] {
   margin-top: 0px;
-  } 
-  
+  }
+
 }
 </style>

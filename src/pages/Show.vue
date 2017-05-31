@@ -50,6 +50,9 @@
 export default {
   name: 'Show',
   props: ['hebamme'],
+  mounted () {
+    document.body.scrollTop = (document.documentElement.scrollTop = 0)
+  },
   data () {
     return {
     }

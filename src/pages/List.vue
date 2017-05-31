@@ -17,6 +17,9 @@
 <script>
 export default {
   name: 'List',
+  mounted () {
+    document.body.scrollTop = (document.documentElement.scrollTop = 0)
+  },
   data () {
     return {
       profiles: [

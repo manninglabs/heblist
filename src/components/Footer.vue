@@ -60,14 +60,8 @@
     <div class="container-fluid" id="footer">
       <p>Are you an excellent midwife? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
       <ul class="list-unstyled">
-        <li><a href="index.html">Home</a></li>
-        <li class="hidden"><a href="about.html">About</a></li>
-        <li><a href="index.html">Find Hebamme</a></li>
-        <li class="hidden"><a href="contact.html">Contact</a></li>
-        <li class="hidden"><a href="">Register</a></li>
-        <li class="hidden"><a href="pricing.html">Pricing</a></li>
-        <li class="hidden"><a href="terms-of-use.html">Terms of Use</a></li>
-        <li class="hidden"><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/">Find Hebamme</router-link></li>
       </ul>
       <p class="copyright">Copyright © 2017 HebammeList, Inc.</p>
     </div>
