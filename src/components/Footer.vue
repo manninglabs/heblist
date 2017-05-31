@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid hidden-xs" id="find_midwife">
-      <h2>Find a perfect midwife by:</h2>
+      <h2>Find an English Speaking Hebamme by:</h2>
       <div class="row">
       <h3>Choose an Area of Berlin</h3><hr/>
       </div>
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="container-fluid" id="footer">
-      <p>Are you an excellent midwife? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
+      <p>Are you an English speaking Hebamme? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
       <ul class="list-unstyled">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/">Find Hebamme</router-link></li>

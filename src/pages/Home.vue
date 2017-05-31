@@ -158,8 +158,7 @@
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
           <h3>We Created “Your Hebamme” Because:</h3>
-          <p class="hidden-xs">There are thousands of English-speaking expecting families in Berlin. When it comes to prenatal care, there are so many things that families new to Germany have to figure out. Finding a Hebamme is arguably the hardest! Until now, families would have to go through lists and lists of names and phone numbers. Your Hebamme goes one step further. We offer a fast and easy way to find a Hebamme. What is more, we make it easy for young families to assess the personality of the candidate - having an emotional connection with your Hebamme is extremely important! </p>
-          <p class="visible-xs">There are thousands of English-speaking expecting families in Berlin. When it comes to prenatal care, there are so many things that families new to Germany have to figure out. Finding a Hebamme is arguably the hardest! Until now, families would have to go through lists and lists of names and phone numbers. Your Hebamme goes one step further. We offer a fast and easy way to find a Hebamme. What is more, we make it easy for young families to assess the personality of the candidate - having an emotional connection with your Hebamme is extremely important! </p>
+          <p>There are thousands of English-speaking expecting families in Berlin. When it comes to prenatal care, there are so many things that families new to Germany have to figure out. Finding a Hebamme is arguably the hardest! Until now, families would have to go through lists and lists of midwives and phone numbers. Your Hebamme goes one step further. We offer a fast and easy way to find an English speaking Hebamme in Berlin. In addition, we make it easy for young families to assess the personality of a midwife - having an emotional connection with your Hebamme is extremely important.</p>
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
       </div>
@@ -201,7 +200,7 @@
     </div>
     <div class="container-fluid" id="exelent_midwife">
       <div class="row">
-        <h3>Are you an excellent midwife?</h3>
+        <h3>Are You an English Speaking Hebamme?</h3>
         <ul>
           <li>— Create your professional profile and reach thousands of patients all over Berlin</li>
           <li>— Build and strengthen your online presence - there is no need in creating an individual website</li>
