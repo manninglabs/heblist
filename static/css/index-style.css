@@ -65,7 +65,18 @@ a.navbar-brand {
 	color: #ffffff;
 }
 /* end navigation */
-
+/* demo-version */
+div#demo {
+	background: #D3D3D3;	
+	height: auto;
+}
+div#demo p {
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+}
+/* end demo-version */
  /*homepage-form вариант 2*/
  #homepage-banner .btn {
 	padding: 9px 15px;
