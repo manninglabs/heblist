@@ -1,8 +1,7 @@
 # Localhost Setup
 
-1. Install 3rd party roles: `ansible-galaxy install -r requirements.yml`
-2. Configure settings and IPs in `inventories/*`
-3. Test connection: `ansible all -m ping -i inventories/<env>`
+1. Install Ansible. Ensure installed via `ansible --version`
+2. Install 3rd party roles: `ansible-galaxy install -r requirements.yml`
 
 # Deployment
 

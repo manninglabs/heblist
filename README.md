@@ -2,6 +2,18 @@
 
 > A Vue.js project
 
+## Localhost Setup
+
+1. Install Ansible. Ensure installed via `ansible --version`
+2. Install 3rd party roles: `ansible-galaxy install -r requirements.yml`
+
+## Deploy
+
+```
+cd deploy
+ansible-playbook -i inventories/production ansible.yml
+```
+
 ## Build Setup
 
 ``` bash
