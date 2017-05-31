@@ -5,7 +5,7 @@
 
 # Deployment
 
-`ansible-playbook -i inventories/<env name> ansible.yml`
+`ansible-playbook -i inventories/production ansible.yml`
 
 # Server Setup
 

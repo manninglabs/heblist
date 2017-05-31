@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh -i key.pem ubuntu@54.236.64.79
+ssh -i key.pem ubuntu@52.5.208.239
