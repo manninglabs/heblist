@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs">
-           <input type="text" name="Zipcode" placeholder="Zipcode" class="hidden btn-group btn-block">
+           <input type="text" name="Zipcode" placeholder="Zipcode" class="hidden btn-group btn-block"/>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
           <p>Displaying 132 midwives in Berlin, 10967 </p>

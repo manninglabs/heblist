@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="container-fluid" id="footer">
-      <p>Are you an English speaking Hebamme? <a href="mailto:hello@hebammelist.com">Email us</a> to join “Your Hebamme” today!</p>
+      <p>Are you an English speaking Hebamme? <a href="mailto:hello@hebammelist.com"><br/>Email us</a> to join “Your Hebamme” today!</p>
       <ul class="list-unstyled">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/">Find Hebamme</router-link></li>
