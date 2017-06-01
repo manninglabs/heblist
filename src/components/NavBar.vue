@@ -10,7 +10,7 @@
         <router-link class="navbar-brand" to="/"><img src="/static/images/your-hebamme-logo.svg" alt="logo-hebamme"/></router-link>
       </div>
       <div class="collapse navbar-collapse" id="responsive-menu">
-        <a href="mailto:hello@yourhebamme.com"><button class="btn btn-default cta-button pull-right">Are you a midwife? Email us to add your free profile!</button></a>
+        <a href="mailto:hello@yourhebamme.com"><button class="btn btn-default cta-button pull-right">Are you a midwife? Email us to add your free profile</button></a>
       </div>
     </div>
   </nav>

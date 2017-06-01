@@ -16,12 +16,11 @@
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="info">
           <h3>{{ hebamme.name }}</h3>
-          <a href="mailto:hello@hebammelist.com" class="hidden-xs">Are You {{ hebamme.name }}? Contact Us.</a>
+          <a href="mailto:hello@hebammelist.com" class="hidden-xs">Are You {{ hebamme.name }}? Email us to complete your profile.</a>
           <p class="visible-xs" id="city">{{ hebamme.areas }}</p><hr/>
           <h4>Professional Statement</h4>
           <p class="hidden-xs"><em>“{{ hebamme.professionalStatement }}”.</em></p>
-           <p class="visible-xs"><em>“{{ hebamme.professionalStatement }}"</em></p>
-           <a href="#" class="visible-xs">Read More</a><hr/>
+          <p class="visible-xs"><em>“{{ hebamme.professionalStatement }}"</em></p>
           <h4>Education</h4>
           <p>Medical School - Albert Einstein College of Medicine<br>
           Long Island Jewish Medical Center (Residency)</p><hr/>
