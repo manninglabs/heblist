@@ -1,8 +1,8 @@
 <template>
   <div>
-<!--     <link rel="stylesheet" type="text/css" href="static/css/index-style.css">
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap-col-15.css">
-    <link rel="stylesheet" type="text/css" href="static/css/index-style-max-767px.css" media="screen and (max-width: 767px)"> -->
+<!--     <link rel="stylesheet" type="text/css" href="/static/css/index-style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-col-15.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/index-style-max-767px.css" media="screen and (max-width: 767px)"> -->
     <site-nav-bar />
     <div id="demo">
       <p>This is a demo version of the site. All midwife profiles are not real and are created temporarily for the purpose of demonstration.</p>
