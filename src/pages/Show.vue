@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <link rel="stylesheet" type="text/css" href="/static/css/hebamme-info-style.css" />
-    <link rel="stylesheet" type="text/css" href="/static/css/hebamme-info-style-max-767px.css" media="screen and (max-width: 767px)" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/hebamme-info-style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/hebamme-info-style-max-767px.css" media="screen and (max-width: 767px)" /> -->
     <site-nav-bar />
     <div class="container-fluid" id="hebamme-info">
       <div class="row">
