@@ -4,7 +4,7 @@
 
 ## Deploy
 
-1. `npm run deploy`
+1. `npm run deploy`. 
 2. git push to `master` branch
 
 This is a special script used by https://www.npmjs.com/package/vue-gh-pages which will generate the static site to /docs dir and push master where our Githubpages site is pointing to.
