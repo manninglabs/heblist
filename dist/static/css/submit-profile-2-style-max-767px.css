@@ -1,0 +1,59 @@
+nav button {
+	margin-bottom: 10px;
+}
+body h2 {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+.navbar-brand {
+	padding-left: 15px;
+	font-size: 22px;
+}
+.navbar-toggle {
+	padding-right: 0px;
+}
+@media screen and (max-width: 400px) {
+.navbar .cta-button {
+    font-size: 12px;
+}}
+.button-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.column {
+	margin-bottom: 15px;
+}
+.button-row {
+	margin-bottom: 0px;
+}
+#red-button {
+	margin-top: 15px;
+}
+#city {
+	margin-top: 0px;
+}
+#need_help {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 50px 0px 50px 15px;
+}
+#need_help a {
+	display: block;
+	margin-top: 30px;
+}
+#need_help div {
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#footer .visible-xs {
+	display: inline !important;
+}
+#footer .copyright {
+	margin-top: 20px;
+}
+#footer {
+ 	height: 100px;
+}

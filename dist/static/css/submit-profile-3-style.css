@@ -1,0 +1,253 @@
+body {
+	font-family: 'Avenir', sans-serif;
+}
+/* bootstrap overrides */
+.navbar {
+	height: 60px;
+	margin-bottom: 0px;
+}
+button.navbar-toggle {
+	border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #84dcc6;
+}
+.navbar-brand {
+	font-size: 27px;
+	font-weight: 400;
+	text-align: center;
+	padding: 15px 30px;
+}
+.navbar ul li {
+	margin: 2px 0px 0px 0px;
+	padding: 0px 0px;
+	font-size: 15px;
+}
+.navbar ul {
+	width: 300px;
+}
+.navbar-collapse {
+	border: 0px;
+	box-shadow: none;
+}
+/* end bootstrap overrides */
+
+/* navigation */
+#responsive-menu {
+	padding: 5px 0px 5px 0px;
+}
+.navbar i {
+	color: #ffffff;
+}
+.navbar i:hover {
+	color: #e6e6e6;
+}
+.navbar .cta-button {
+	background-color: #84dcc6;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	margin: 5px 15px; /* hack to ensure vertically aligned middle */
+	padding: 8px 18px;
+	color: #ffffff;
+	font-size: 15px;
+}
+.navbar li p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 0px;
+	font-size: 15px;
+	color: #ffffff;
+}
+/* end navigation */
+/* navigation */
+nav {
+	background-color: #84dcc6;
+}
+nav a {
+	color: #ffffff;
+}
+nav a:hover {
+	color: #e6e6e6;
+}
+.navbar-brand {
+    font-size: 27px;
+}
+.cta-button {
+	background-color: #84dcc6;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 15px;
+	padding: 9px 15px;
+}
+.cta-button:hover {
+	background-color: #84dcc6; 
+	border-color: #ffffff;
+	color: #e6e6e6;
+}
+.btn {
+	padding: 9px 15px;
+	border-radius: 5px;
+	border: solid 0.5px #d3d3d3;
+	text-align: left;
+	font-size: 15px;
+}
+/* end navigation */
+
+/* block sub navigation */
+#sub-navigation {
+	background-color: #ff686b;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+#sub-navigation h3 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 30px;
+	margin-bottom: 10px;
+}
+#sub-navigation p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.57;
+	margin: 30px;
+	margin-top: 20px;
+}
+
+/* end block sub navigation */
+
+/* what's next? */
+#what-s-next h3 {
+	color: #ff686b;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#what-s-next p {
+    color: #858585;
+    text-align: center;
+    font-size: 15px;
+	line-height: 1.57;
+	margin: 30px;
+	margin-top: 10px;
+    margin-bottom: 100px;
+}
+/* end what's next? */
+
+/* buttons */
+::-webkit-input-placeholder { /* WebKit browsers */
+   color: #d3d3d3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #d3d3d3;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #d3d3d3;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #d3d3d3;
+}
+#buttons p {
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #858585;
+}
+#buttons p.email {
+	color: #ffffff;
+}
+#buttons .row {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#buttons a {
+	color: #84dcc6;
+	font-size: 15px;
+	display: block;
+	text-align: left;
+}
+#buttons button {
+	background-color: #84dcc6;
+	color: #ffffff;
+	text-align: center;
+	border: none;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+/* end buttons */
+/*Need Help Booking or Registering?*/
+#need_help {
+	background-color: #ff686b;
+	margin-top: 0px;
+    text-align: center;
+	padding: 20px 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+#need_help span {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 100;
+}
+#need_help a {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	display: block;
+    text-align: left;
+}
+@media screen and (max-width: 992px) {
+#need_help a {
+    text-align: center;
+}}
+
+/*end Need Help Booking or Registering?*/
+/* footer */
+#footer {
+	background-color: #84dcc6;
+	margin-top: 0px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	height: 150px;
+}
+#footer p {
+	margin-top: 30px;
+	color: #ffffff;
+}
+#footer a {
+	color: #ffffff;
+}
+#footer ul li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+	font-weight: 400;
+}
+#footer ul {
+	margin-top: 20px;
+}
+#footer .copyright {
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.list-unstyled {
+	margin-top: 10px;
+}
+/*end footer*/

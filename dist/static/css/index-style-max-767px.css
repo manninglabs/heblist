@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+  	padding-left: 15px;
+  	font-size: 22px;
+  }
+  .navbar-toggle {
+  	padding-right: 0px;
+  }
+  .btn-block {
+  	width: 100% !important;
+  }
+  .info p {
+  	margin-bottom: 80px;
+  }
+  p.icon {
+  	margin-bottom: 0px;
+  }
+  h1 {
+  	font-weight: 100 !important;
+  }
+   #homepage-banner {
+   	background-image: url(/static/images/main-banner-image-mobile.png);
+   	height: 400px;
+   }
+  #homepage-banner h1 {
+  	margin-top: 20px;
+  	font-size: 24px;
+  }
+  #homepage-banner div.row {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+  #first_row {
+  	margin-top: 100px;
+  }
+  @media screen and (max-width: 767px) {
+  #first_row {
+      margin-top: 200px;
+  }}
+  @media screen and (max-width: 400px) {
+  .navbar .cta-button {
+      font-size: 12px;
+  }}
+  #homepage-banner {
+  	text-align: right;
+  }
+  #button_hebamme_english div.col-xs-12 {
+  	padding-right: 0px;
+  	padding-left: 0px;
+  }
+  #button_hebamme_english div.row {
+  	margin-top: 0px;
+  }
+
+  #exelent_midwife.container-fluid {
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 0px;
+  }
+  #exelent_midwife ul li {
+  	padding-left: 20px;
+  	padding-right: 20px;
+  }
+  #footer .visible-xs {
+  	display: inline !important;
+  }
+  #footer .copyright {
+  	margin-top: 20px;
+  }
+  #footer {
+   	height: 100px;
+  }
+}

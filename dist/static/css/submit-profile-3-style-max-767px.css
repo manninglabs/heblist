@@ -1,0 +1,48 @@
+.navbar-brand {
+	padding-left: 15px;
+	font-size: 22px;
+}
+button.navbar-toggle {
+	padding-right: 0px;
+	margin-right: 15px;
+}
+@media screen and (max-width: 400px) {
+.navbar .cta-button {
+    font-size: 12px;
+}}
+#buttons .col-xs-12 {
+    margin-bottom: 15px;
+}
+#sub-navigation {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+#what-s-next h3 {
+	margin-top: 70px;
+}
+#footer .visible-xs {
+	display: inline !important;
+}
+#footer .copyright {
+	margin-top: 20px;
+}
+#footer {
+ 	height: 100px;
+}
+#need_help {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 50px 15px 50px 30px;
+}
+#need_help a {
+	display: block;
+	margin-top: 30px;
+}
+#need_help div {
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
